@@ -1,0 +1,22 @@
+import type { Faq } from "./types";
+
+export const faqs: Faq[] = [
+  { q: "What is Atelier One?", a: "Atelier One is business management software for tailoring shops and fabric retailers. It brings customers, garment measurements, fabric inventory, sale and purchase invoices, workshop order tracking, payments, employees, expenses and reports into one connected workspace." },
+  { q: "Who should use Atelier One?", a: "Tailoring shops, fabric retailers, boutiques, clothing workshops and stitching businesses. The person who creates the account owns the company workspace and adds managers and counter staff as users." },
+  { q: "Can Atelier One manage tailoring measurements?", a: "Yes. Measurements are stored on the customer record for Shalwar Kameez, Kurta Pajama, Coat and Waistcoat, with style details such as collar, daman, sleeve, pocket, button and fit (plus lapel and vent where relevant). A history is kept, and each sale-invoice line stores a snapshot of the measurement used." },
+  { q: "Can I track stitching orders?", a: "Yes. Every item on a sale invoice has its own stage — In Process, Ready or Delivered. Stages are visible on the invoice, on each employee's assigned work and in the Order Status report." },
+  { q: "Can I manage fabric inventory?", a: "Yes. Products can be fabric, stitching services, accessories or other items, with units such as meter, piece, pair, set, kg and yard, a minimum-stock alert and a full stock movement history." },
+  { q: "Does fabric stock update after sales?", a: "Yes. Fabric lines on a sale invoice deduct their meters from stock, edits return the old quantity and deduct the new one, and deleting an invoice returns the stock. If there isn't enough stock, the sale is refused and nothing changes." },
+  { q: "Can I manage customer payments?", a: "Yes. Receive a payment against one of the customer's open invoices or on account, by cash, bank transfer, cheque or other method. Advances taken on a new invoice are recorded as linked receipts automatically." },
+  { q: "Can I track employee wages?", a: "Yes. Each employee has a wage ledger. Paying a wage automatically creates a linked salary expense, so it appears in Expenses and in Profit & Loss. Loans and repayments are tracked on the same profile." },
+  { q: "Does Atelier One support multiple companies?", a: "Yes. Every company that signs up gets its own private workspace with its own users, roles, settings, dropdown values and invoice numbering. Business records are isolated per company — one company cannot see another's data." },
+  { q: "Can I add staff members?", a: "Yes. The owner or any Admin adds users from Users. Each person signs in with their own email and receives an invitation email with a link to set their password." },
+  { q: "Are custom roles supported?", a: "Yes. Admin, Manager and Staff roles are created for every company, and you can create custom roles with a module × action permission matrix. Permissions are enforced by the server on every request." },
+  { q: "Does Atelier One provide financial reports?", a: "Yes — 13 reports, including Sales, Purchases, Customer Balances, Expenses, Inventory, Employee Balances, Profit & Loss, Product-wise Sales, Daily Sales, Payment Collections, Order Status, Staff Work and Vendor Purchases." },
+  { q: "Can I export reports?", a: "Yes. Reports and lists can be exported as CSV files. Excel (.xlsx) export is not currently available, and sale invoices can be downloaded as PDF." },
+  { q: "Does it support light and dark themes?", a: "Yes. The application uses the Graphite & Gold theme in both light and dark modes, and so does this website." },
+  { q: "Is there a free trial?", a: "New companies start on a trial when they create an account. Billing and paid plans are not built into the product yet, and there is no upgrade flow." },
+  { q: "How long does the trial last?", a: "14 days. The app shows \"Trial · N days left\" in the top bar while a company is on trial. Trial expiry does not currently restrict access." },
+  { q: "Does Atelier One support mobile devices?", a: "Atelier One is a responsive web application. Below tablet width the sidebar becomes a slide-over menu, and on phones tables turn into labelled cards. There is no separate native mobile app." },
+  { q: "How can I get started?", a: "Get in touch through the contact page to discuss your business and how Atelier One fits your workflow." },
+];
